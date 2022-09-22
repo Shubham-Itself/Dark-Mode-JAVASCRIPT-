@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-one{
+    margin-top: 20px;
+}
+.container-one{
+
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-nav li{
+    float: left;
+    list-style-type: none;
+    margin: 20px 20px;
+    font-size: 20px;
+    
+   
+}
+
+.side-nav li:hover{
+    color: rgb(37, 177, 255);
+}
+
+
+.logo-contain img{
+    background-color: orangered;
+    animation: rounded 2s infinite;
+    border-radius: 50%;
+}
+
+@keyframes rounded{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.text-area{
+    width: 600px;
+}
+
+.section-two{
+    margin-top: 80px;
+}
+.container-two{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+    align-items: center;
+}
+.img-section img{
+    border-radius: 50px;
+    transition: 1s ease-in-out;
+}
+
+.img-section img:hover{
+    animation: shift 1s ease-in-out;
+
+}
+
+@keyframes shift{
+    0%{
+        transform: translate(0 , 0);
+    }
+    100%{
+        transform: translate(40px ,40px);
+    }
+}
+
+
+.main-text h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.mike{
+    color: rgb(37, 177, 255);
+}
+
+.main-text p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.icon-area{
+   
+    margin-top: 200px;
+}
+
+.btn{
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+}
+.btn:hover{
+    background-color: rgb(37, 177, 255) ;
+    color: white;
+}
+
+.fa-brands{
+    margin: 0px 20px;
+    font-size: 30px;
+    color: rgb(37, 177, 255);
+}
+
+.fa-sun{
+    animation: rotate 2s infinite;
+
+}
+
+/* @keyframes rotate{
+    0%{
+        transform: rotate(360deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+} */
